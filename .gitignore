@@ -1,0 +1,6 @@
+img/raw/
+*.log
+*.exit
+*.pid
+.DS_Store
+Thumbs.db
