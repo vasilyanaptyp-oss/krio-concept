@@ -4,3 +4,8 @@ img/raw/
 *.pid
 .DS_Store
 Thumbs.db
+passport.json
+brief.md
+proverka.json
+skrin/
+*.bak

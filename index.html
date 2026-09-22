@@ -2,437 +2,327 @@
 <html lang="lv">
 <head>
 <meta charset="utf-8">
-<meta name="robots" content="noindex,nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Krio, IU — siltumsūkņi, kondicionieri un aukstuma iekārtas Valmierā</title>
-<meta name="description" content="Krio, IU — siltumsūkņu, kondicionieru un aukstuma iekārtu uzstādīšana, apkope un remonts Valmierā un visā Vidzemē. Uzņēmums dibināts 1999. gadā.">
-<meta name="theme-color" content="#0A1B2A">
-<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<meta name="robots" content="noindex, nofollow">
+<title>Krio — siltumsūkņi un kondicionieri Valmierā un Vidzemē</title>
+<meta name="description" content="Siltumsūkņu, gaisa kondicionieru un saldēšanas iekārtu uzstādīšana, apkope un remonts Valmierā un visā Vidzemē. Kopš 1999. gada. Tālr. +371 29142014.">
+<meta name="theme-color" content="#12233A">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Krio, IU — siltumsūkņi, kondicionieri un aukstuma iekārtas">
-<meta property="og:description" content="Uzstādīšana, apkope un remonts Valmierā un visā Vidzemē. Kopš 1999. gada.">
-<meta property="og:image" content="img/aukstuma-agregats.webp">
 <meta property="og:locale" content="lv_LV">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap&subset=latin,latin-ext" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
+<meta property="og:title" content="Krio, IU — siltumsūkņi, kondicionieri, saldēšanas iekārtas">
+<meta property="og:description" content="Uzstādīšana, apkope un remonts Valmierā un visā Vidzemē. Kopš 1999. gada.">
+<meta property="og:image" content="https://vasilyanaptyp-oss.github.io/krio-concept/img/og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23F4F7F9'/%3E%3Ccircle cx='16' cy='16' r='13' fill='none' stroke='%232E6DB4' stroke-width='2.4'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%23EE9A3C' stroke-width='2.4'/%3E%3Ccircle cx='16' cy='16' r='3.4' fill='%23C2410C'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HVACBusiness",
+  "name": "Krio, IU",
+  "legalName": "KRIO, Valmieras pilsētas Jura Sijāta, IU",
+  "telephone": "+371 29142014",
+  "email": "iukrio@inbox.lv",
+  "foundingDate": "1999-04-29",
+  "taxID": "44102019414",
+  "vatID": "LV44102019414",
+  "address": {"@type": "PostalAddress", "streetAddress": "\"Kalnieši 4\", Pilāti", "addressLocality": "Valmieras pagasts, Valmieras nov.", "postalCode": "LV-4219", "addressCountry": "LV"},
+  "geo": {"@type": "GeoCoordinates", "latitude": 57.5564648935, "longitude": 25.4600691756},
+  "areaServed": "Vidzeme"
+}
+</script>
+<style>
+@font-face{font-family:"Geologica";font-style:normal;font-weight:300 800;font-display:swap;src:url(fonts/geologica-300-800-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Geologica";font-style:normal;font-weight:300 800;font-display:swap;src:url(fonts/geologica-300-800-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Geologica Fallback";src:local("Segoe UI"),local("Arial");size-adjust:101%;ascent-override:96%;descent-override:26%;line-gap-override:0%}
+
+:root{
+  /* снег / ночной синий / изотермы от тёплого к холодному */
+  --snow:#F4F7F9; --white:#FFFFFF; --ink:#12233A; --ink-2:#465770; --line:#D3DCE5;
+  --t1:#D24B26; --t2:#EE9A3C; --t3:#9DB9B3; --t4:#57A9C9; --t5:#2E6DB4;
+  --act:#C2410C; --act-dark:#9A3412;
+  --f:"Geologica","Geologica Fallback","Segoe UI",Arial,sans-serif;
+  --wrap:1200px; --pad:clamp(16px,4vw,40px);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:80px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--snow);color:var(--ink);font:300 17px/1.6 var(--f)}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+b,strong{font-weight:600}
+:focus-visible{outline:3px solid var(--t5);outline-offset:3px;border-radius:4px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--pad)}
+.skip{position:absolute;left:-9999px;top:8px;background:var(--ink);color:#fff;padding:12px 16px;z-index:50}
+.skip:focus{left:8px}
+h1,h2,h3{margin:0;font-weight:700;line-height:1.05;letter-spacing:-.025em}
+h2{font-size:clamp(32px,4.6vw,58px)}
+p{margin:0}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 24px;border-radius:12px;font:600 17px/1 var(--f);text-decoration:none;border:2px solid transparent;transition:background-color .15s,color .15s}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-act{background:var(--act);color:#fff}
+.btn-act:hover{background:var(--act-dark)}
+.btn-line{border-color:var(--ink);color:var(--ink);background:var(--white)}
+.btn-line:hover{background:var(--ink);color:#fff}
+
+/* шапка */
+.top{position:sticky;top:0;z-index:20;background:rgba(244,247,249,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:22px;min-height:64px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;min-height:44px}
+.logo svg{width:30px;height:30px}
+.logo b{font-size:25px;font-weight:800;letter-spacing:-.03em}
+.logo small{font-size:14px;font-weight:500;color:var(--ink-2)}
+.nav{display:flex;gap:2px;margin-left:auto}
+.nav a{display:flex;align-items:center;min-height:44px;padding:0 12px;text-decoration:none;font-weight:500;font-size:15px;border-radius:10px}
+.nav a:hover{background:#E6ECF1}
+.top .btn{min-height:44px;padding:0 16px;font-size:15px}
+@media (max-width:900px){.nav{display:none}.top .btn{margin-left:auto}}
+
+/* первый экран: карта изотерм */
+.hero{padding:clamp(28px,5vw,64px) 0 clamp(40px,6vw,80px)}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:clamp(24px,4vw,56px);align-items:center}
+.kicker{font-size:16px;font-weight:500;color:var(--ink-2);margin-bottom:18px;display:flex;align-items:center;gap:10px}
+.kicker i{display:inline-block;width:34px;height:8px;border-radius:4px;background:linear-gradient(90deg,var(--t1),var(--t2),var(--t3),var(--t4),var(--t5))}
+.hero h1{font-size:clamp(36px,4.8vw,64px);line-height:1.02}
+.lead{font-size:clamp(18px,1.6vw,21px);margin-top:20px;max-width:32em;color:var(--ink)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.mail-line{margin-top:16px;font-size:16px;color:var(--ink-2)}
+.mail-line a{display:inline-flex;align-items:center;min-height:44px;font-weight:500;color:var(--ink)}
+.map{margin:0;background:var(--white);border:1px solid var(--line);border-radius:18px;padding:10px 10px 0;overflow:hidden}
+.map svg{display:block;width:100%;height:auto}
+.map figcaption{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:12px 12px 14px;border-top:1px solid var(--line);font-size:15px;font-weight:500}
+.map figcaption span{color:var(--ink-2);font-weight:300}
+.iso{fill:none;stroke-width:2.4;stroke-dasharray:1;animation:iso 1.5s cubic-bezier(.5,.1,.2,1) var(--d) both}
+.sea{fill:#DCEAF3}
+.sea-t{font:500 12px var(--f);fill:#5C7A92;letter-spacing:.04em}
+.towns circle{fill:var(--ink)}
+.towns text,.base text{font:500 15px var(--f);fill:var(--ink);paint-order:stroke;stroke:#fff;stroke-width:5px;stroke-linejoin:round}
+.towns{animation:fade .6s ease .9s both}
+.base circle{fill:var(--act)}
+.base .halo{opacity:.18;transform-box:fill-box;transform-origin:center;animation:pulse 2.8s ease-in-out 1.6s 2}
+.base .b1{font-weight:700;font-size:19px}
+.base .b2{font-weight:300;font-size:14px}
+@keyframes iso{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes fade{from{opacity:0}}
+@keyframes pulse{50%{transform:scale(1.5);opacity:.05}}
+@media (prefers-reduced-motion:reduce){.iso,.towns,.base .halo{animation:none}}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr}}
+@media (max-width:560px){.towns text{font-size:23px}.base .b1{font-size:27px}.base .b2{font-size:20px}.sea-t{font-size:17px}.towns circle{r:7px}}
+
+/* секции */
+.sec{padding:clamp(64px,9vw,116px) 0}
+.sec-white{background:var(--white)}
+.sec-head{display:grid;gap:14px;max-width:760px;margin-bottom:clamp(28px,4vw,52px)}
+.sec-head p{font-size:19px;color:var(--ink-2)}
+
+/* шкала услуг: от тепла к холоду */
+.scale{position:relative;list-style:none;margin:0;padding:0 0 0 clamp(44px,6vw,76px)}
+.scale::before{content:"";position:absolute;left:clamp(12px,2vw,22px);top:10px;bottom:10px;width:12px;border-radius:6px;background:linear-gradient(var(--t1),var(--t2) 30%,var(--t3) 55%,var(--t4) 78%,var(--t5))}
+.scale li{position:relative;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:8px 32px;align-items:baseline;padding:22px 0 20px;border-bottom:1px solid var(--line)}
+.scale li:first-child{border-top:1px solid var(--line)}
+.scale li::before{content:"";position:absolute;left:calc(-1 * clamp(44px,6vw,76px) + clamp(12px,2vw,22px) - 6px);top:50%;width:24px;height:24px;border-radius:50%;background:var(--c);border:4px solid var(--white);box-shadow:0 0 0 1px var(--line);transform:translateY(-50%)}
+.scale h3{font-size:clamp(24px,2.8vw,36px);font-weight:600}
+.scale h3 span{display:block;font-size:16px;font-weight:300;color:var(--ink-2);letter-spacing:0;margin-top:6px}
+.scale .works{font-size:18px;font-weight:500}
+@media (max-width:700px){.scale li{grid-template-columns:1fr}}
+
+/* фото */
+.photos{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:14px}
+.photos>*{min-width:0}
+.photos figure{margin:0}
+.photos img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:12px}
+.photos figcaption{font-size:15px;padding-top:8px;color:var(--ink-2)}
+.slot{display:grid;place-items:center;text-align:center;aspect-ratio:3/2;border:2px dashed #9FB0C0;border-radius:12px;background:repeating-linear-gradient(135deg,#fff 0 12px,#EEF3F7 12px 24px);padding:16px;font-weight:500;color:var(--ink-2)}
+.slot svg{width:32px;height:32px;margin:0 auto 6px}
+@media (max-width:820px){.photos{grid-template-columns:1fr 1fr}.photos figure{grid-column:span 2}}
+
+/* шаги */
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,3vw,32px);counter-reset:s}
+.steps li{counter-increment:s;padding:24px 22px 26px;background:var(--white);border:1px solid var(--line);border-radius:16px}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:44px;height:44px;border-radius:50%;border:2px solid var(--ink);font-weight:700;font-size:19px;margin-bottom:16px}
+.steps h3{font-size:22px;font-weight:600;margin-bottom:8px}
+.steps p{color:var(--ink-2)}
+@media (max-width:820px){.steps{grid-template-columns:1fr}}
+
+/* компания */
+.company{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(24px,5vw,64px);align-items:start}
+.company p.lead2{font-size:19px;color:var(--ink-2);margin-top:14px}
+.company dl{margin:0;display:grid;grid-template-columns:auto 1fr;border-top:1px solid var(--line)}
+.company dt,.company dd{margin:0;padding:14px 0 12px;border-bottom:1px solid var(--line)}
+.company dt{color:var(--ink-2);padding-right:22px;font-size:16px}
+.company dd{font-weight:500}
+@media (max-width:820px){.company{grid-template-columns:1fr}.company dl{grid-template-columns:1fr}.company dt{padding-bottom:0;border-bottom:0}}
+
+/* контакты */
+.dark{background:var(--ink);color:#EEF3F7}
+.dark h2{color:#fff}
+.contact .wrap{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(24px,5vw,64px);align-items:end}
+.bigtel{display:inline-block;margin-top:22px;font-size:clamp(34px,5vw,64px);font-weight:700;letter-spacing:-.02em;text-decoration:none;color:#fff;white-space:nowrap;padding-bottom:10px;background:linear-gradient(90deg,var(--t1),var(--t2),var(--t3),var(--t4),var(--t5)) left bottom/100% 6px no-repeat}
+.clist{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.clist a,.clist p{display:flex;align-items:center;gap:12px;min-height:48px;font-size:18px;font-weight:400;text-decoration:none;color:#fff;overflow-wrap:anywhere}
+.clist a:hover{text-decoration:underline}
+.clist svg{width:22px;height:22px;flex:none;color:var(--t2)}
+@media (max-width:820px){.contact .wrap{grid-template-columns:1fr;align-items:start}}
+
+footer{background:#0C1829;color:#C7D2DE;padding:28px 0 36px;font-size:15px}
+footer .wrap{display:grid;gap:12px}
+footer b{color:#fff}
+.pometka{border:1px solid #2C3E57;border-radius:10px;padding:12px 14px;max-width:800px;line-height:1.5}
+
+.dock{display:none}
+@media (max-width:700px){
+  .dock{display:grid;grid-template-columns:1.3fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:30;padding:8px 10px calc(8px + env(safe-area-inset-bottom));background:rgba(244,247,249,.97);border-top:1px solid var(--line)}
+  .dock .btn{min-height:50px;padding:0 10px;font-size:16px}
+  body{padding-bottom:76px}
+}
+</style>
 </head>
 <body>
-
-<svg class="sprite" aria-hidden="true" focusable="false">
-  <symbol id="i-hp" viewBox="0 0 32 32"><rect x="3.5" y="8" width="25" height="17" rx="2.5"/><circle cx="12" cy="16.5" r="5"/><path d="M12 13.2c1.6.6 2 2.2 1 3.3M12 19.8c-1.6-.6-2-2.2-1-3.3M8.7 16.5c.6-1.6 2.2-2 3.3-1M15.3 16.5c-.6 1.6-2.2 2-3.3 1"/><path d="M21 12.5h4M21 16.5h4M21 20.5h4M7 25v2.5M25 25v2.5"/></symbol>
-  <symbol id="i-water" viewBox="0 0 32 32"><path d="M5 26V12M27 26V12M5 15h22M5 23h22"/><path d="M10 15v8M14 15v8M18 15v8M22 15v8"/><path d="M16 3.5c-1.8 2.3-2.8 3.8-2.8 5.1a2.8 2.8 0 0 0 5.6 0c0-1.3-1-2.8-2.8-5.1z"/></symbol>
-  <symbol id="i-ac" viewBox="0 0 32 32"><rect x="3" y="6" width="26" height="10" rx="2.5"/><path d="M6.5 12.5h19"/><path d="M10 20c0 2.2-1.6 3.3-1.6 5.6M16 20v5.6M22 20c0 2.2 1.6 3.3 1.6 5.6"/></symbol>
-  <symbol id="i-snow" viewBox="0 0 32 32"><path d="M16 3.5v25M5.2 9.75l21.6 12.5M5.2 22.25l21.6-12.5"/><path d="M12.6 6.2L16 9l3.4-2.8M12.6 25.8L16 23l3.4 2.8M5.7 13.9l4.2-1.5-.8-4.3M26.3 18.1l-4.2 1.5.8 4.3M5.7 18.1l4.2 1.5-.8 4.3M26.3 13.9l-4.2-1.5.8-4.3"/></symbol>
-  <symbol id="i-ask" viewBox="0 0 32 32"><path d="M5 7.5A2.5 2.5 0 0 1 7.5 5h17A2.5 2.5 0 0 1 27 7.5v12a2.5 2.5 0 0 1-2.5 2.5H14l-6 5v-5h-.5A2.5 2.5 0 0 1 5 19.5z"/><path d="M13 11a3 3 0 1 1 4.3 2.7c-.8.4-1.3 1-1.3 1.9v.4"/><path d="M16 18.6v.1"/></symbol>
-  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h2.6l1.4 4.3-2 1.4a11.5 11.5 0 0 0 6.2 6.2l1.4-2 4.3 1.4v2.6a2 2 0 0 1-2.2 2A16.8 16.8 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/></symbol>
-  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="M3.5 7l8.5 6 8.5-6"/></symbol>
-  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></symbol>
-  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
-  <symbol id="i-zoom" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L20 20M10.5 7.8v5.4M7.8 10.5h5.4"/></symbol>
-  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
-  <symbol id="i-camera" viewBox="0 0 24 24"><path d="M4 8.5A1.5 1.5 0 0 1 5.5 7h2.3l1.4-2h5.6l1.4 2h2.3A1.5 1.5 0 0 1 20 8.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 17.5z"/><circle cx="12" cy="12.8" r="3.3"/></symbol>
+<a class="skip" href="#saturs">Pāriet uz saturu</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-tel" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M6.6 3.5h2.6l1.4 4.3-2 1.4a11.5 11.5 0 0 0 6.2 6.2l1.4-2 4.3 1.4v2.6a2 2 0 0 1-2.2 2A16.8 16.8 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="M3.5 7l8.5 6 8.5-6"/></g></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></g></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.2a9.7 9.7 0 0 0-8.4 14.6L2.3 21.8l5.1-1.3A9.7 9.7 0 1 0 12 2.2zm0 17.6a7.9 7.9 0 0 1-4-1.1l-.3-.2-3 .8.8-2.9-.2-.3A7.9 7.9 0 1 1 12 19.8zm4.4-5.9c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8 1c-.1.2-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5a.9.9 0 0 0-.7.3 2.8 2.8 0 0 0-.9 2.1 4.9 4.9 0 0 0 1 2.6 11.2 11.2 0 0 0 4.3 3.8c1.6.7 2.2.7 3 .6a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .2-1.2c-.1-.1-.3-.2-.5-.3z"/></symbol>
+  <symbol id="i-cam" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M4 8.5A1.5 1.5 0 0 1 5.5 7h2.3l1.4-2h5.6l1.4 2h2.3A1.5 1.5 0 0 1 20 8.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 17.5z"/><circle cx="12" cy="12.8" r="3.3"/></g></symbol>
 </svg>
 
-<a class="skip-link" href="#saturs">Pāriet uz saturu</a>
-
-<header class="site-header" id="augsa">
-  <div class="wrap header-inner">
-    <a class="brand" href="#augsa">
-      <img src="img/krio-logo.png" width="120" height="34" alt="Krio, IU">
-      <span class="brand-sub">Valmiera · Vidzeme</span>
-    </a>
-    <nav class="site-nav" aria-label="Galvenā izvēlne">
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#sakums"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13" fill="none" stroke="#2E6DB4" stroke-width="2.4"/><circle cx="16" cy="16" r="8" fill="none" stroke="#EE9A3C" stroke-width="2.4"/><circle cx="16" cy="16" r="3.4" fill="#C2410C"/></svg><b>Krio</b><small>IU</small></a>
+    <nav class="nav" aria-label="Lapas sadaļas">
+      <a href="#pakalpojumi">Pakalpojumi</a>
       <a href="#darbi">Darbi</a>
-      <a href="#izvele">Iekārtas</a>
-      <a href="#pieteikums">Pieteikums</a>
+      <a href="#uznemums">Uzņēmums</a>
       <a href="#kontakti">Kontakti</a>
     </nav>
-    <a class="header-call" href="tel:+37129142014" aria-label="Zvanīt: +371 29142014">
-      <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
-      <span class="header-call-num">+371 29142014</span>
-    </a>
+    <a class="btn btn-act" href="tel:+37129142014"><svg aria-hidden="true"><use href="#i-tel"/></svg>+371 29142014</a>
   </div>
 </header>
 
 <main id="saturs">
-
-  <!-- ============ HERO ============ -->
-  <section class="hero" aria-labelledby="hero-title">
-    <div class="hero-bg" aria-hidden="true"></div>
-    <div class="wrap hero-inner">
-      <div class="hero-text">
-        <p class="since">
-          <span class="since-year">1999</span>
-          <span class="since-text"><strong>Kopš 1999. gada</strong>dibināts 29.04.1999 · 27 gadi</span>
-        </p>
-        <h1 id="hero-title">Siltumsūkņi, kondicionieri un aukstuma iekārtas</h1>
-        <p class="lead">Uzstādām, apkopjam un remontējam — gan Valmierā, gan visā Vidzemē. Ja vēl nezināt, kas jums vajadzīgs, sāksim ar konsultāciju.</p>
+  <section class="hero" id="sakums" aria-labelledby="h1">
+    <div class="wrap">
+      <div>
+        <p class="kicker"><i aria-hidden="true"></i>Krio, IU — kopš 1999. gada, Pilāti pie Valmieras</p>
+        <h1 id="h1">Siltumsūkņi, kondicionieri un saldēšanas iekārtas</h1>
+        <p class="lead">Uzstādīšana, apkope, remonts un konsultācijas — gan Valmierā, gan visā Vidzemē.</p>
         <div class="hero-cta">
-          <a class="btn btn-yellow" href="#izvele">Izvēlēties iekārtu
-            <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>
-          </a>
-          <a class="btn btn-ghost" href="tel:+37129142014">
-            <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
-            Zvanīt 29142014
-          </a>
+          <a class="btn btn-act" href="tel:+37129142014"><svg aria-hidden="true"><use href="#i-tel"/></svg>Zvanīt +371 29142014</a>
+          <a class="btn btn-line" href="https://wa.me/37129142014"><svg aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
         </div>
+        <p class="mail-line">Vai rakstiet: <a href="mailto:iukrio@inbox.lv">iukrio@inbox.lv</a></p>
       </div>
-
-      <div class="quick" aria-labelledby="quick-title">
-        <p class="quick-title" id="quick-title">Ar ko sākt?</p>
-        <ul class="quick-list">
-          <li><button class="quick-item" type="button" data-pick="gaisa-siltumsuknis">
-            <svg class="ico ico-lg" aria-hidden="true"><use href="#i-hp"/></svg>
-            <span><strong>Gaisa siltumsūknis</strong><small>mājas vai telpu apsildei</small></span>
-            <svg class="ico ico-go" aria-hidden="true"><use href="#i-arrow"/></svg>
-          </button></li>
-          <li><button class="quick-item" type="button" data-pick="gaiss-udens">
-            <svg class="ico ico-lg" aria-hidden="true"><use href="#i-water"/></svg>
-            <span><strong>Gaiss–ūdens siltumsūknis</strong><small>mājas apkurei</small></span>
-            <svg class="ico ico-go" aria-hidden="true"><use href="#i-arrow"/></svg>
-          </button></li>
-          <li><button class="quick-item" type="button" data-pick="kondicionieris">
-            <svg class="ico ico-lg" aria-hidden="true"><use href="#i-ac"/></svg>
-            <span><strong>Kondicionieris</strong><small>vēsumam vasarā</small></span>
-            <svg class="ico ico-go" aria-hidden="true"><use href="#i-arrow"/></svg>
-          </button></li>
-          <li><button class="quick-item" type="button" data-pick="aukstuma-iekartas">
-            <svg class="ico ico-lg" aria-hidden="true"><use href="#i-snow"/></svg>
-            <span><strong>Aukstuma iekārtas</strong><small>aukstuma kamerām un saldēšanai</small></span>
-            <svg class="ico ico-go" aria-hidden="true"><use href="#i-arrow"/></svg>
-          </button></li>
-          <li><button class="quick-item" type="button" data-pick="konsultacija">
-            <svg class="ico ico-lg" aria-hidden="true"><use href="#i-ask"/></svg>
-            <span><strong>Vēl nezinu</strong><small>sāksim ar konsultāciju</small></span>
-            <svg class="ico ico-go" aria-hidden="true"><use href="#i-arrow"/></svg>
-          </button></li>
-        </ul>
-      </div>
+      <figure class="map">
+        <svg viewBox="0 0 640 500" role="img" aria-labelledby="map-t">
+          <title id="map-t">Karte: Valmiera un Vidzemes pilsētas — Cēsis, Sigulda, Limbaži, Saulkrasti, Smiltene, Valka, Gulbene, Madona</title>
+<path class="sea" d="M-80 0H14L14 57 21 167 24 271 12 300-21 330-80 400Z"/><text class="sea-t" x="13" y="150" transform="rotate(-90 13 150)">Rīgas līcis</text>
+<path class="iso" style="--d:0.00s" pathLength="1" d="M341.9 142.4C342.4 145.0 342.7 147.8 342.6 150.5C342.6 153.2 342.2 155.9 341.5 158.6C340.9 161.2 339.9 163.9 338.7 166.3C337.5 168.8 336.0 171.2 334.3 173.4C332.6 175.6 330.6 177.7 328.5 179.6C326.4 181.5 324.2 183.2 321.8 184.7C319.5 186.3 317.0 187.6 314.5 188.8C312.0 190.0 309.4 191.0 306.8 191.9C304.2 192.7 301.6 193.5 299.0 194.1C296.4 194.7 293.8 195.2 291.3 195.6C288.7 196.0 286.1 196.2 283.5 196.4C280.9 196.6 278.3 196.7 275.8 196.7C273.2 196.7 270.6 196.5 268.0 196.3C265.5 196.0 262.9 195.7 260.4 195.1C257.9 194.6 255.3 194.0 252.9 193.2C250.4 192.4 248.0 191.4 245.7 190.3C243.3 189.2 241.1 187.9 238.9 186.5C236.8 185.1 234.8 183.5 232.9 181.8C231.0 180.1 229.2 178.3 227.6 176.3C226.0 174.4 224.5 172.4 223.2 170.3C221.9 168.1 220.8 165.9 219.8 163.7C218.8 161.4 217.9 159.1 217.2 156.8C216.5 154.4 215.9 152.1 215.5 149.7C215.0 147.2 214.7 144.8 214.6 142.4C214.4 139.9 214.3 137.4 214.4 134.9C214.5 132.4 214.7 129.9 215.1 127.4C215.5 124.9 216.0 122.4 216.7 119.9C217.4 117.4 218.3 114.9 219.4 112.4C220.5 110.0 221.8 107.6 223.3 105.3C224.8 103.1 226.6 100.9 228.5 98.9C230.4 96.8 232.5 94.9 234.8 93.3C237.1 91.6 239.6 90.1 242.2 88.9C244.8 87.7 247.6 86.7 250.3 85.9C253.1 85.2 256.0 84.7 258.9 84.4C261.7 84.2 264.7 84.2 267.5 84.4C270.3 84.6 273.1 85.1 275.8 85.7C278.4 86.3 281.0 87.1 283.5 88.0C286.0 88.9 288.4 90.0 290.7 91.1C293.0 92.2 295.1 93.4 297.2 94.6C299.4 95.8 301.4 97.1 303.4 98.4C305.3 99.6 307.3 100.9 309.2 102.3C311.1 103.6 313.0 104.9 314.9 106.3C316.8 107.8 318.7 109.2 320.5 110.7C322.4 112.3 324.3 113.9 326.1 115.6C327.9 117.4 329.7 119.2 331.3 121.2C333.0 123.2 334.6 125.3 336.0 127.5C337.3 129.8 338.6 132.1 339.6 134.6C340.6 137.1 341.4 139.7 341.9 142.4Z" stroke="#D24B26"/>
+<path class="iso" style="--d:0.15s" pathLength="1" d="M424.3 142.4C425.3 148.3 425.8 154.5 425.6 160.5C425.4 166.6 424.6 172.8 423.1 178.7C421.6 184.6 419.4 190.5 416.7 196.0C413.9 201.6 410.4 206.9 406.5 211.8C402.6 216.7 398.0 221.2 393.2 225.3C388.4 229.3 383.0 232.9 377.6 236.0C372.1 239.2 366.3 241.8 360.5 244.0C354.8 246.2 348.8 248.0 342.9 249.4C337.1 250.8 331.2 251.8 325.4 252.7C319.7 253.5 314.0 254.0 308.4 254.4C302.8 254.8 297.3 254.9 291.9 255.1C286.4 255.2 281.1 255.2 275.8 255.2C270.4 255.1 265.1 255.0 259.7 254.7C254.3 254.5 248.9 254.2 243.3 253.6C237.8 253.1 232.2 252.5 226.6 251.5C221.0 250.5 215.3 249.4 209.6 247.8C203.9 246.2 198.2 244.4 192.6 242.0C187.1 239.7 181.5 237.0 176.3 233.8C171.2 230.6 166.1 227.0 161.5 223.0C156.9 219.0 152.6 214.5 148.9 209.7C145.1 205.0 141.8 199.8 139.1 194.4C136.4 189.1 134.2 183.4 132.6 177.6C131.0 171.9 130.0 166.0 129.5 160.1C129.0 154.2 129.1 148.2 129.7 142.4C130.2 136.5 131.3 130.7 132.8 125.0C134.3 119.4 136.2 113.8 138.4 108.5C140.6 103.2 143.3 98.0 146.1 93.0C149.0 88.0 152.2 83.1 155.5 78.5C158.9 73.9 162.6 69.4 166.5 65.2C170.3 61.0 174.4 56.9 178.8 53.1C183.1 49.3 187.7 45.7 192.4 42.4C197.2 39.1 202.2 36.1 207.3 33.3C212.5 30.6 217.9 28.2 223.4 26.2C229.0 24.1 234.7 22.4 240.5 21.1C246.2 19.9 252.1 19.0 258.0 18.5C263.9 18.0 269.9 18.0 275.8 18.4C281.6 18.7 287.5 19.5 293.2 20.6C298.9 21.7 304.5 23.2 309.9 25.0C315.4 26.8 320.7 28.9 325.8 31.2C330.9 33.5 335.9 36.1 340.7 38.9C345.5 41.6 350.1 44.6 354.7 47.7C359.2 50.9 363.6 54.2 367.8 57.6C372.1 61.1 376.3 64.7 380.3 68.5C384.4 72.4 388.3 76.3 392.1 80.6C395.8 84.8 399.5 89.2 402.9 93.9C406.2 98.6 409.5 103.5 412.3 108.7C415.1 113.9 417.6 119.3 419.6 124.9C421.6 130.5 423.3 136.4 424.3 142.4Z" stroke="#EE9A3C"/>
+<path class="iso" style="--d:0.30s" pathLength="1" d="M512.0 142.4C510.3 151.8 507.4 161.1 504.0 170.0C500.5 178.9 496.1 187.4 491.3 195.5C486.6 203.6 481.0 211.2 475.3 218.4C469.7 225.6 463.5 232.3 457.2 238.7C450.9 245.1 444.4 251.1 437.8 256.8C431.2 262.5 424.5 267.8 417.7 273.0C410.9 278.1 404.1 283.0 397.1 287.8C390.0 292.5 382.9 297.1 375.6 301.5C368.3 305.8 360.8 310.0 353.0 313.9C345.2 317.7 337.2 321.4 328.8 324.6C320.5 327.8 311.9 330.8 303.0 333.1C294.2 335.4 285.0 337.3 275.8 338.5C266.5 339.7 256.9 340.4 247.4 340.3C237.9 340.1 228.3 339.4 218.8 337.8C209.4 336.3 199.9 334.0 190.8 331.1C181.7 328.1 172.7 324.4 164.2 320.1C155.7 315.9 147.4 310.9 139.7 305.5C132.0 300.1 124.6 294.0 117.8 287.6C111.0 281.3 104.7 274.4 98.8 267.3C93.0 260.1 87.6 252.6 82.8 244.9C77.9 237.1 73.5 229.1 69.7 220.9C65.8 212.7 62.4 204.2 59.6 195.6C56.8 187.0 54.5 178.2 52.8 169.4C51.2 160.5 50.0 151.4 49.6 142.4C49.2 133.3 49.4 124.1 50.4 115.1C51.4 106.0 53.1 96.9 55.6 88.1C58.1 79.3 61.4 70.5 65.4 62.2C69.4 53.9 74.3 45.8 79.8 38.2C85.2 30.7 91.5 23.6 98.3 17.1C105.1 10.6 112.6 4.6 120.3 -0.6C128.1 -5.9 136.4 -10.6 144.8 -14.6C153.3 -18.6 162.1 -22.0 170.9 -24.8C179.6 -27.6 188.6 -29.8 197.4 -31.6C206.3 -33.4 215.1 -34.7 223.9 -35.7C232.7 -36.7 241.3 -37.3 250.0 -37.7C258.6 -38.2 267.2 -38.3 275.8 -38.4C284.3 -38.4 292.9 -38.2 301.5 -37.9C310.2 -37.5 318.9 -37.0 327.8 -36.2C336.6 -35.4 345.6 -34.4 354.7 -32.9C363.8 -31.5 373.0 -29.8 382.3 -27.4C391.5 -25.0 400.9 -22.2 410.0 -18.6C419.2 -15.1 428.4 -10.9 437.0 -6.0C445.7 -1.1 454.2 4.6 461.9 10.9C469.7 17.3 477.0 24.4 483.3 32.1C489.6 39.8 495.3 48.3 499.8 57.0C504.3 65.7 507.8 75.1 510.3 84.5C512.7 94.0 514.0 103.8 514.3 113.5C514.6 123.1 513.7 132.9 512.0 142.4Z" stroke="#9DB9B3"/>
+<path class="iso" style="--d:0.45s" pathLength="1" d="M605.0 142.4C605.5 155.5 604.6 168.9 602.3 181.9C600.1 194.9 596.2 207.9 591.3 220.2C586.5 232.4 580.1 244.4 573.0 255.6C565.9 266.8 557.5 277.5 548.7 287.3C539.9 297.2 530.1 306.4 520.1 314.8C510.0 323.3 499.3 331.0 488.5 338.1C477.7 345.3 466.5 351.7 455.3 357.6C444.0 363.5 432.5 368.8 420.9 373.7C409.3 378.5 397.6 382.8 385.8 386.7C373.9 390.6 362.0 394.0 349.9 396.8C337.8 399.7 325.5 402.1 313.2 403.8C300.8 405.5 288.3 406.8 275.8 407.2C263.2 407.7 250.5 407.6 237.9 406.6C225.4 405.6 212.7 403.8 200.3 401.3C188.0 398.7 175.6 395.3 163.8 391.1C151.9 386.9 140.2 381.8 129.1 376.0C118.0 370.2 107.3 363.6 97.2 356.4C87.1 349.2 77.6 341.3 68.6 332.9C59.7 324.5 51.4 315.5 43.7 306.2C36.0 296.8 28.9 287.0 22.4 276.9C15.9 266.8 10.0 256.4 4.6 245.7C-0.7 235.0 -5.5 224.0 -9.8 212.7C-14.0 201.5 -17.7 190.0 -20.7 178.3C-23.7 166.5 -26.3 154.5 -27.9 142.4C-29.6 130.2 -30.7 117.7 -30.7 105.2C-30.8 92.7 -30.2 80.0 -28.3 67.4C-26.5 54.8 -23.8 42.0 -19.9 29.7C-16.0 17.4 -10.9 5.0 -4.7 -6.6C1.5 -18.3 8.9 -29.7 17.3 -40.1C25.7 -50.5 35.4 -60.4 45.8 -69.2C56.2 -77.9 67.8 -85.9 79.8 -92.5C91.8 -99.2 104.8 -104.9 117.8 -109.3C130.9 -113.7 144.5 -117.0 158.0 -119.2C171.4 -121.4 185.2 -122.4 198.6 -122.7C211.9 -122.9 225.3 -122.0 238.1 -120.7C251.0 -119.3 263.6 -117.0 275.8 -114.5C287.9 -112.0 299.7 -108.8 311.2 -105.6C322.8 -102.3 333.9 -98.7 344.9 -95.0C355.9 -91.3 366.6 -87.5 377.4 -83.5C388.2 -79.4 398.8 -75.4 409.6 -70.9C420.4 -66.5 431.1 -62.0 441.9 -56.9C452.8 -51.8 463.7 -46.5 474.5 -40.4C485.2 -34.4 496.1 -27.9 506.5 -20.5C516.8 -13.1 527.2 -5.1 536.7 3.8C546.2 12.6 555.4 22.3 563.4 32.7C571.4 43.2 578.8 54.5 584.7 66.2C590.6 77.9 595.6 90.5 598.9 103.2C602.3 115.9 604.4 129.2 605.0 142.4Z" stroke="#57A9C9"/>
+<path class="iso" style="--d:0.60s" pathLength="1" d="M680.9 142.4C680.4 158.5 678.4 174.9 674.8 190.7C671.3 206.5 666.1 222.2 659.6 237.0C653.1 251.8 645.0 266.2 636.0 279.6C627.0 293.1 616.5 305.8 605.5 317.5C594.5 329.2 582.3 340.1 569.9 350.0C557.5 360.0 544.3 368.9 531.1 377.3C517.9 385.6 504.2 393.0 490.6 399.9C477.0 406.9 463.2 413.1 449.4 419.1C435.6 425.1 421.9 430.5 407.9 435.8C393.9 441.1 380.0 446.1 365.6 450.9C351.3 455.7 336.8 460.3 321.9 464.5C306.9 468.7 291.6 472.8 275.8 476.1C259.9 479.4 243.6 482.4 226.8 484.3C210.1 486.2 192.7 487.6 175.2 487.5C157.8 487.4 139.7 486.5 122.0 483.9C104.3 481.3 86.2 477.4 68.9 471.9C51.7 466.4 34.4 459.3 18.5 450.8C2.6 442.2 -12.9 432.0 -26.6 420.6C-40.4 409.1 -53.2 396.1 -64.1 382.3C-75.0 368.5 -84.5 353.2 -92.1 337.7C-99.7 322.2 -105.6 305.7 -109.8 289.3C-114.0 272.9 -116.3 255.8 -117.4 239.3C-118.4 222.7 -117.6 205.9 -115.9 189.8C-114.2 173.6 -111.0 157.7 -107.1 142.4C-103.3 127.0 -98.2 112.1 -92.8 97.7C-87.4 83.3 -81.2 69.5 -74.7 56.0C-68.3 42.5 -61.3 29.5 -54.0 16.7C-46.7 3.9 -39.1 -8.4 -31.1 -20.6C-23.0 -32.8 -14.7 -44.7 -5.8 -56.4C3.2 -68.0 12.5 -79.5 22.5 -90.6C32.6 -101.7 43.1 -112.6 54.5 -122.9C65.9 -133.1 78.0 -143.1 90.9 -152.2C103.8 -161.2 117.5 -169.8 131.8 -177.3C146.2 -184.7 161.4 -191.4 177.0 -196.9C192.5 -202.3 208.9 -206.8 225.3 -209.9C241.8 -213.1 258.9 -215.0 275.8 -215.7C292.7 -216.4 309.9 -215.8 326.8 -214.1C343.6 -212.4 360.6 -209.4 377.0 -205.4C393.5 -201.4 409.8 -196.3 425.5 -190.3C441.2 -184.3 456.6 -177.2 471.4 -169.4C486.2 -161.6 500.6 -153.0 514.3 -143.6C528.0 -134.3 541.2 -124.2 553.7 -113.4C566.3 -102.6 578.3 -91.2 589.4 -79.1C600.6 -67.0 611.1 -54.2 620.7 -40.8C630.2 -27.5 639.0 -13.5 646.6 1.0C654.1 15.5 660.8 30.7 666.0 46.1C671.2 61.6 675.3 77.6 677.8 93.7C680.3 109.7 681.4 126.2 680.9 142.4Z" stroke="#2E6DB4"/>
+<g class="towns">
+<circle cx="230.7" cy="250.0" r="5"/><text x="241.7" y="255.0" text-anchor="start">Cēsis</text>
+<circle cx="131.5" cy="319.6" r="5"/><text x="142.5" y="324.6" text-anchor="start">Sigulda</text>
+<circle cx="98.3" cy="161.3" r="5"/><text x="109.3" y="166.3" text-anchor="start">Limbaži</text>
+<circle cx="27.3" cy="271.0" r="5"/><text x="38.3" y="276.0" text-anchor="start">Saulkrasti</text>
+<circle cx="380.7" cy="200.6" r="5"/><text x="391.7" y="205.6" text-anchor="start">Smiltene</text>
+<circle cx="409.2" cy="46.1" r="5"/><text x="420.2" y="51.1" text-anchor="start">Valka</text>
+<circle cx="583.0" cy="309.3" r="5"/><text x="572.0" y="314.3" text-anchor="end">Gulbene</text>
+<circle cx="455.7" cy="451.4" r="5"/><text x="466.7" y="456.4" text-anchor="start">Madona</text>
+</g>
+<g class="base"><circle class="halo" cx="275.8" cy="142.4" r="22"/><circle cx="275.8" cy="142.4" r="9"/><text x="293.8" y="130.4" class="b1">Valmiera</text><text x="293.8" y="152.4" class="b2">Krio, Pilāti</text></g>
+        </svg>
+        <figcaption>Strādājam Valmierā un visā Vidzemē <span>no Saulkrastiem līdz Gulbenei</span></figcaption>
+      </figure>
     </div>
   </section>
 
-  <!-- ============ GALLERY ============ -->
-  <section class="section gallery-section" id="darbi" aria-labelledby="darbi-title">
+  <section class="sec sec-white" id="pakalpojumi" aria-labelledby="pak-h">
     <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">Pirms zvanāt</p>
-        <h2 id="darbi-title">Kā izskatās uzstādīta iekārta</h2>
-        <p class="section-lead">Apskatiet iekārtas objektos un izvēlieties, kas der jums. Pie katra foto — poga, kas uzreiz sagatavo pieteikumu tādai pašai iekārtai.</p>
+      <div class="sec-head">
+        <h2 id="pak-h">No siltuma līdz aukstumam</h2>
+        <p>Vienā uzņēmumā — iekārtas, kas silda, dzesē un saldē. Katrai: uzstādīšana, apkope un remonts.</p>
       </div>
-
-      <div class="filters" role="group" aria-label="Rādīt darbus">
-        <button class="filter is-on" type="button" data-filter="visi" aria-pressed="true">Visi</button>
-        <button class="filter" type="button" data-filter="siltumsukni" aria-pressed="false">Siltumsūkņi</button>
-        <button class="filter" type="button" data-filter="kondicionieri" aria-pressed="false">Kondicionieri</button>
-        <button class="filter" type="button" data-filter="aukstums" aria-pressed="false">Aukstuma iekārtas</button>
-      </div>
-
-      <div class="gallery" id="gallery">
-        <figure class="tile tile-photo" data-cat="aukstums">
-          <button class="tile-zoom" type="button" data-zoom aria-label="Palielināt foto: āra aukstuma agregāts pie ēkas sienas">
-            <img src="img/aukstuma-agregats.webp" width="640" height="480"
-                 alt="Āra aukstuma agregāts ar kompresoru, resīveri un vadības paneli, piestiprināts pie ēkas sienas">
-            <span class="zoom-badge" aria-hidden="true"><svg class="ico"><use href="#i-zoom"/></svg></span>
-          </button>
-          <figcaption>
-            <span class="tag">Aukstuma iekārtas</span>
-            <span class="tile-caption">Āra aukstuma agregāts pie ēkas sienas</span>
-            <button class="link-pick" type="button" data-pick="aukstuma-iekartas">Pieteikt aukstuma iekārtu
-              <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>
-            </button>
-          </figcaption>
-        </figure>
-
-        <figure class="tile tile-slot" data-cat="siltumsukni">
-          <div class="slot-art" aria-hidden="true">
-            <svg class="ico slot-ico"><use href="#i-hp"/></svg>
-            <span class="slot-cam"><svg class="ico"><use href="#i-camera"/></svg> vieta foto</span>
-          </div>
-          <figcaption>
-            <span class="tag">Siltumsūkņi</span>
-            <span class="tile-caption">Gaisa siltumsūkņa āra bloks pie mājas</span>
-            <button class="link-pick" type="button" data-pick="gaisa-siltumsuknis">Pieteikt gaisa siltumsūkni
-              <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>
-            </button>
-          </figcaption>
-        </figure>
-
-        <figure class="tile tile-slot" data-cat="kondicionieri">
-          <div class="slot-art" aria-hidden="true">
-            <svg class="ico slot-ico"><use href="#i-ac"/></svg>
-            <span class="slot-cam"><svg class="ico"><use href="#i-camera"/></svg> vieta foto</span>
-          </div>
-          <figcaption>
-            <span class="tag">Kondicionieri</span>
-            <span class="tile-caption">Kondicionieris telpā pēc uzstādīšanas</span>
-            <button class="link-pick" type="button" data-pick="kondicionieris">Pieteikt kondicionieri
-              <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>
-            </button>
-          </figcaption>
-        </figure>
-
-        <figure class="tile tile-slot" data-cat="siltumsukni">
-          <div class="slot-art" aria-hidden="true">
-            <svg class="ico slot-ico"><use href="#i-water"/></svg>
-            <span class="slot-cam"><svg class="ico"><use href="#i-camera"/></svg> vieta foto</span>
-          </div>
-          <figcaption>
-            <span class="tag">Siltumsūkņi</span>
-            <span class="tile-caption">Gaiss–ūdens siltumsūknis mājas apkurei</span>
-            <button class="link-pick" type="button" data-pick="gaiss-udens">Pieteikt gaiss–ūdens siltumsūkni
-              <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>
-            </button>
-          </figcaption>
-        </figure>
-
-        <figure class="tile tile-slot" data-cat="aukstums">
-          <div class="slot-art" aria-hidden="true">
-            <svg class="ico slot-ico"><use href="#i-snow"/></svg>
-            <span class="slot-cam"><svg class="ico"><use href="#i-camera"/></svg> vieta foto</span>
-          </div>
-          <figcaption>
-            <span class="tag">Aukstuma iekārtas</span>
-            <span class="tile-caption">Aukstuma kamera pēc montāžas</span>
-            <button class="link-pick" type="button" data-pick="aukstuma-iekartas">Pieteikt aukstuma iekārtu
-              <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>
-            </button>
-          </figcaption>
-        </figure>
-
-        <aside class="tile tile-note" aria-label="Koncepta piezīme">
-          <p class="note-kicker">Koncepta piezīme</p>
-          <p>Uzņēmuma kartītē ir viens darba foto, tāpēc pārējās vietas vēl tukšas. Pēc katra objekta pietiek ar 2–3 telefona bildēm — un klients redzēs uzstādītu iekārtu vēl pirms zvana.</p>
-        </aside>
-      </div>
-      <p class="filter-status" id="filter-status" aria-live="polite"></p>
+      <ol class="scale">
+        <li style="--c:var(--t1)"><h3>Gaiss–ūdens siltumsūkņi<span>mājas apkurei</span></h3><p class="works">Uzstādīšana, apkope, remonts</p></li>
+        <li style="--c:var(--t2)"><h3>Gaisa siltumsūkņi<span>telpu apsildei</span></h3><p class="works">Uzstādīšana, apkope, remonts</p></li>
+        <li style="--c:var(--t4)"><h3>Gaisa kondicionieri<span>telpu dzesēšanai</span></h3><p class="works">Uzstādīšana, apkope, remonts</p></li>
+        <li style="--c:var(--t5)"><h3>Saldēšanas iekārtas<span>aukstumiekārtu montāža un remonts</span></h3><p class="works">Uzstādīšana, apkope, remonts</p></li>
+        <li style="--c:var(--t3)"><h3>Konsultācijas<span>ja vēl nezināt, kas jums der</span></h3><p class="works">Pastāstiet par telpām — sāksim ar to</p></li>
+      </ol>
     </div>
   </section>
 
-  <!-- ============ CHOOSER + FORM ============ -->
-  <section class="section chooser-section" id="izvele" aria-labelledby="izvele-title">
+  <section class="sec" id="darbi" aria-labelledby="darbi-h">
     <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow"><span class="step">1</span> Izvēle</p>
-        <h2 id="izvele-title">Kas jums vajadzīgs?</h2>
-        <p class="section-lead">Izvēlieties pēc mērķa — iekārtas veids uzreiz parādīsies pieteikumā. Atliks norādīt telpas platību un objekta vietu.</p>
+      <div class="sec-head">
+        <h2 id="darbi-h">Darbi</h2>
+        <p>Šeit būs Krio objektu foto: siltumsūkņi, kondicionieri un saldēšanas iekārtas pēc uzstādīšanas.</p>
       </div>
-
-      <div class="types" id="types">
-        <article class="type-card" data-type="gaisa-siltumsuknis">
-          <svg class="ico type-ico" aria-hidden="true"><use href="#i-hp"/></svg>
-          <h3>Gaisa siltumsūknis</h3>
-          <p class="type-purpose">Mājas vai telpu apsildei</p>
-          <p class="type-sub">gaiss–gaiss</p>
-          <ul class="works" aria-label="Darbi">
-            <li>Uzstādīšana</li><li>Apkope</li><li>Remonts</li>
-          </ul>
-          <button class="pick" type="button" data-pick="gaisa-siltumsuknis" aria-pressed="false">Izvēlēties</button>
-        </article>
-
-        <article class="type-card" data-type="gaiss-udens">
-          <svg class="ico type-ico" aria-hidden="true"><use href="#i-water"/></svg>
-          <h3>Gaiss–ūdens siltumsūknis</h3>
-          <p class="type-purpose">Mājas apkurei ar radiatoriem vai grīdas apsildi</p>
-          <p class="type-sub">gaiss–ūdens</p>
-          <ul class="works" aria-label="Darbi">
-            <li>Uzstādīšana</li><li>Remonts</li>
-          </ul>
-          <button class="pick" type="button" data-pick="gaiss-udens" aria-pressed="false">Izvēlēties</button>
-        </article>
-
-        <article class="type-card" data-type="kondicionieris">
-          <svg class="ico type-ico" aria-hidden="true"><use href="#i-ac"/></svg>
-          <h3>Kondicionieris</h3>
-          <p class="type-purpose">Telpu dzesēšanai vasarā</p>
-          <p class="type-sub">gaisa kondicionēšana</p>
-          <ul class="works" aria-label="Darbi">
-            <li>Uzstādīšana</li><li>Apkope</li><li>Remonts</li>
-          </ul>
-          <button class="pick" type="button" data-pick="kondicionieris" aria-pressed="false">Izvēlēties</button>
-        </article>
-
-        <article class="type-card" data-type="aukstuma-iekartas">
-          <svg class="ico type-ico" aria-hidden="true"><use href="#i-snow"/></svg>
-          <h3>Aukstuma iekārtas</h3>
-          <p class="type-purpose">Aukstuma kamerām un saldēšanas iekārtām</p>
-          <p class="type-sub">saldēšanas tehnika</p>
-          <ul class="works" aria-label="Darbi">
-            <li>Uzstādīšana</li><li>Apkope</li><li>Remonts</li>
-          </ul>
-          <button class="pick" type="button" data-pick="aukstuma-iekartas" aria-pressed="false">Izvēlēties</button>
-        </article>
-
-        <article class="type-card type-card-ask" data-type="konsultacija">
-          <svg class="ico type-ico" aria-hidden="true"><use href="#i-ask"/></svg>
-          <h3>Vēl nezinu</h3>
-          <p class="type-purpose">Pastāstiet par telpu — konsultēsim, kas tai der</p>
-          <p class="type-sub">konsultācija</p>
-          <ul class="works" aria-label="Darbi">
-            <li>Konsultācija</li>
-          </ul>
-          <button class="pick" type="button" data-pick="konsultacija" aria-pressed="false">Izvēlēties</button>
-        </article>
-      </div>
-
-      <!-- form -->
-      <div class="order" id="pieteikums">
-        <div class="order-head">
-          <p class="eyebrow"><span class="step">2</span> Pieteikums</p>
-          <h2 class="order-title">Pieteikums ar parametriem</h2>
-        </div>
-
-        <form class="order-form" id="order-form" novalidate>
-          <div class="order-fields">
-            <div class="field">
-              <label for="f-type">Iekārta</label>
-              <select id="f-type" name="iekarta" aria-describedby="f-type-err">
-                <option value="">— izvēlieties —</option>
-                <option value="gaisa-siltumsuknis">Gaisa siltumsūknis (gaiss–gaiss)</option>
-                <option value="gaiss-udens">Gaiss–ūdens siltumsūknis</option>
-                <option value="kondicionieris">Kondicionieris</option>
-                <option value="aukstuma-iekartas">Aukstuma iekārtas</option>
-                <option value="konsultacija">Vēl nezinu — vajag konsultāciju</option>
-              </select>
-              <p class="field-err" id="f-type-err" aria-live="assertive"></p>
-            </div>
-
-            <fieldset class="field">
-              <legend>Kas jādara</legend>
-              <div class="chips" id="f-work">
-                <label class="chip"><input type="radio" name="darbs" value="Uzstādīšana" checked><span>Uzstādīšana</span></label>
-                <label class="chip"><input type="radio" name="darbs" value="Apkope"><span>Apkope</span></label>
-                <label class="chip"><input type="radio" name="darbs" value="Remonts"><span>Remonts</span></label>
-                <label class="chip"><input type="radio" name="darbs" value="Konsultācija"><span>Konsultācija</span></label>
-              </div>
-            </fieldset>
-
-            <div class="two">
-              <div class="field">
-                <label for="f-area" id="f-area-label">Telpas platība, m²</label>
-                <input id="f-area" name="platiba" type="text" inputmode="decimal" autocomplete="off" placeholder="piem., 80" maxlength="8">
-              </div>
-              <div class="field">
-                <label for="f-place">Objekta vieta</label>
-                <input id="f-place" name="vieta" type="text" autocomplete="address-level2" placeholder="piem., Valmiera" maxlength="80">
-              </div>
-            </div>
-
-            <div class="two">
-              <div class="field">
-                <label for="f-name">Vārds</label>
-                <input id="f-name" name="vards" type="text" autocomplete="given-name" maxlength="60">
-              </div>
-              <div class="field">
-                <label for="f-phone">Tālrunis</label>
-                <input id="f-phone" name="talrunis" type="tel" autocomplete="tel" inputmode="tel" maxlength="20">
-              </div>
-            </div>
-
-            <div class="field">
-              <label for="f-note">Papildu informācija <span class="opt">(nav obligāti)</span></label>
-              <textarea id="f-note" name="piezimes" rows="3" maxlength="600" placeholder="piem., kas nedarbojas vai kādā telpā jāuzstāda"></textarea>
-            </div>
-          </div>
-
-          <div class="order-summary">
-            <div class="summary-card">
-              <p class="summary-kicker">
-                <svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>
-                <span>Aizies uz <span class="nocaps">iukrio@inbox.lv</span></span>
-              </p>
-              <p class="summary-line" id="summary"><em>Izvēlieties iekārtu — te parādīsies pieteikuma teksts.</em></p>
-              <button class="btn btn-blue btn-block" type="submit">Sagatavot e-pastu</button>
-              <p class="summary-hint">Šai lapai vēl nav servera: poga atvērs jūsu e-pasta programmu ar gatavu vēstuli — atliks nospiest „Sūtīt”. Ja ērtāk, zvaniet: <a href="tel:+37129142014">+371 29142014</a>.</p>
-            </div>
-          </div>
-        </form>
+      <div class="photos">
+        <figure><img src="img/agregats.webp" width="640" height="480" loading="lazy" alt="Āra aukstuma agregāts ar kompresoru un resīveri pie ēkas sienas"><figcaption>Aukstuma agregāts pie ēkas sienas</figcaption></figure>
+        <div class="slot" data-zaglushka="siltumsūkņu objektu foto"><div><svg aria-hidden="true"><use href="#i-cam"/></svg>Siltumsūkņa foto</div></div>
+        <div class="slot" data-zaglushka="kondicionieru objektu foto"><div><svg aria-hidden="true"><use href="#i-cam"/></svg>Kondicioniera foto</div></div>
       </div>
     </div>
   </section>
 
-  <!-- ============ COMPANY ============ -->
-  <section class="section company-section" id="uznemums" aria-labelledby="uznemums-title">
-    <div class="wrap company-inner">
-      <div class="company-year" aria-hidden="true">
-        <span class="big-year">1999</span>
-        <span class="big-year-note">dibināts 29. aprīlī</span>
-      </div>
-      <div class="company-text">
-        <p class="eyebrow">Par uzņēmumu</p>
-        <h2 id="uznemums-title">Jura Sijāta uzņēmums kopš 1999. gada</h2>
-        <p class="company-lead">Mūsu uzņēmums piedāvā dažādas gaisa sildīšanas un temperatūras regulēšanas sistēmas: uzstādīšanu, apkopi, remontu un konsultācijas. Strādājam gan Valmierā, gan visā Vidzemē.</p>
-        <dl class="facts">
-          <div><dt>Pilns nosaukums</dt><dd>KRIO, Valmieras pilsētas Jura Sijāta, IU</dd></div>
-          <div><dt>Īpašnieks</dt><dd>Juris Sijāts</dd></div>
-          <div><dt>Dibināts</dt><dd>29.04.1999</dd></div>
-          <div><dt>Reģistrācijas Nr.</dt><dd>44102019414</dd></div>
-          <div><dt>PVN Nr.</dt><dd>LV44102019414</dd></div>
-          <div><dt>Juridiskā adrese</dt><dd>Rūpniecības iela 42 – 43, Valmiera, LV-4201</dd></div>
-          <div class="facts-wide"><dt>Nozares</dt><dd>Saldēšanas iekārtas · Ventilācijas un kondicionēšanas sistēmas un iekārtas telpām · Siltumtehnika, apkures iekārtas</dd></div>
-        </dl>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ CONTACTS ============ -->
-  <section class="section contacts-section" id="kontakti" aria-labelledby="kontakti-title">
+  <section class="sec sec-white" id="pieteikums" aria-labelledby="piet-h">
     <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">Kontakti</p>
-        <h2 id="kontakti-title">Zvaniet vai rakstiet</h2>
+      <div class="sec-head">
+        <h2 id="piet-h">Kā pieteikt darbu</h2>
       </div>
-      <div class="contacts">
-        <a class="contact-card" href="tel:+37129142014">
-          <svg class="ico contact-ico" aria-hidden="true"><use href="#i-phone"/></svg>
-          <span class="contact-label">Mobilais tālrunis</span>
-          <span class="contact-value">+371 29142014</span>
-        </a>
-        <a class="contact-card" href="mailto:iukrio@inbox.lv">
-          <svg class="ico contact-ico" aria-hidden="true"><use href="#i-mail"/></svg>
-          <span class="contact-label">E-pasts</span>
-          <span class="contact-value">iukrio@inbox.lv</span>
-        </a>
-        <a class="contact-card" href="https://www.google.com/maps/search/?api=1&amp;query=57.5564648935%2C25.4600691756" target="_blank" rel="noopener">
-          <svg class="ico contact-ico" aria-hidden="true"><use href="#i-pin"/></svg>
-          <span class="contact-label">Adrese · atvērt kartē</span>
-          <span class="contact-value contact-value-sm">„Kalnieši 4”, Pilāti, Valmieras pagasts, Valmieras nov., LV-4219</span>
-        </a>
-      </div>
-      <p class="area-line">Strādājam <strong>gan Valmierā, gan visā Vidzemē</strong>.</p>
+      <ol class="steps">
+        <li><h3>Zvaniet vai rakstiet</h3><p>+371 29142014, WhatsApp vai iukrio@inbox.lv.</p></li>
+        <li><h3>Pastāstiet par objektu</h3><p>Kāda iekārta, kas jādara — uzstādīt, apkopt vai salabot — un kur objekts atrodas.</p></li>
+        <li><h3>Vienojamies par laiku</h3><p>Sarunājam, kad brauksim uz objektu.</p></li>
+      </ol>
     </div>
   </section>
 
+  <section class="sec" id="uznemums" aria-labelledby="uzn-h">
+    <div class="wrap company">
+      <div>
+        <h2 id="uzn-h">Kopš 1999. gada</h2>
+        <p class="lead2">Krio nodarbojas ar gaisa sildīšanas un temperatūras regulēšanas sistēmām — Valmierā un visā Vidzemē.</p>
+      </div>
+      <dl>
+        <dt>Pilns nosaukums</dt><dd>KRIO, Valmieras pilsētas Jura Sijāta, IU</dd>
+        <dt>Dibināts</dt><dd>29.04.1999</dd>
+        <dt>Reģistrācijas Nr.</dt><dd>44102019414</dd>
+        <dt>PVN Nr.</dt><dd>LV44102019414</dd>
+        <dt>Adrese</dt><dd>„Kalnieši 4”, Pilāti, Valmieras pagasts, Valmieras nov., LV-4219</dd>
+        <dt>Juridiskā adrese</dt><dd>Rūpniecības iela 42 – 43, Valmiera, LV-4201</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section class="sec dark contact" id="kontakti" aria-labelledby="kont-h">
+    <div class="wrap">
+      <div>
+        <h2 id="kont-h">Zvaniet</h2>
+        <a class="bigtel" href="tel:+37129142014">+371 29142014</a>
+      </div>
+      <ul class="clist">
+        <li><a href="https://wa.me/37129142014"><svg aria-hidden="true"><use href="#i-wa"/></svg>Rakstīt WhatsApp</a></li>
+        <li><a href="mailto:iukrio@inbox.lv"><svg aria-hidden="true"><use href="#i-mail"/></svg>iukrio@inbox.lv</a></li>
+        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=57.5564648935%2C25.4600691756"><svg aria-hidden="true"><use href="#i-pin"/></svg>„Kalnieši 4”, Pilāti — atvērt kartē</a></li>
+      </ul>
+    </div>
+  </section>
 </main>
 
-<footer class="site-footer">
-  <div class="wrap footer-inner">
-    <div>
-      <strong>Krio, IU</strong>
-      <span>Reģ. Nr. 44102019414 · PVN LV44102019414</span>
-    </div>
-    <p class="footer-note">Mājaslapas koncepts. Visa informācija — no uzņēmuma kartītes katalogā zl.lv.</p>
+<footer>
+  <div class="wrap">
+    <p><b>Krio, IU</b> — siltumsūkņi, kondicionieri un saldēšanas iekārtas, Valmiera un Vidzeme.</p>
+    <p class="pometka" data-kontsept-pometka>Neoficiāla mājaslapas koncepcija, sagatavoja Artur Vasilyan — vasilyanaptyp-oss.github.io. Šī vēl nav Krio mājaslapa: kontakti, pakalpojumi, pilsētas kartē un foto ņemti no uzņēmuma kartītes zl.lv.</p>
   </div>
 </footer>
 
-<nav class="mobile-bar" aria-label="Ātrās darbības">
-  <a class="btn btn-ghost-dark" href="tel:+37129142014">
-    <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>Zvanīt
-  </a>
-  <a class="btn btn-yellow" href="#izvele">Pieteikums</a>
+<nav class="dock" aria-label="Ātrai saziņai">
+  <a class="btn btn-act" href="tel:+37129142014"><svg aria-hidden="true"><use href="#i-tel"/></svg>Zvanīt</a>
+  <a class="btn btn-line" href="https://wa.me/37129142014"><svg aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
 </nav>
-
-<dialog class="lightbox" id="lightbox" aria-label="Foto palielinājumā">
-  <form method="dialog" class="lightbox-close-form">
-    <button class="lightbox-close" type="submit" aria-label="Aizvērt">
-      <svg class="ico" aria-hidden="true"><use href="#i-close"/></svg>
-    </button>
-  </form>
-  <img id="lightbox-img" src="img/aukstuma-agregats.webp" width="640" height="480" alt="">
-  <p class="lightbox-cap" id="lightbox-cap"></p>
-</dialog>
-
-<script src="js/main.js" defer></script>
 </body>
 </html>
